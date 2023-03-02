@@ -42,9 +42,9 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `App` DISABLE KEYS */;
-INSERT INTO `App` (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "App" (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1000, 'consumer-test-app-id-0', 'consumer-test-app-id-0', 'TEST1', '样例部门1', 'apollo', 'apollo@acme.com', 'apollo', 'apollo');
-INSERT INTO `App` (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "App" (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (2000, 'consumer-test-app-id-1', 'consumer-test-app-id-1', 'TEST2', '样例部门2', 'apollo', 'apollo@acme.com', 'apollo', 'apollo');
 /*!40000 ALTER TABLE `App` ENABLE KEYS */;
 
