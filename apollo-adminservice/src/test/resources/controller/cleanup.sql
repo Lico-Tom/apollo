@@ -19,5 +19,5 @@ DELETE FROM "AppNamespace";
 DELETE FROM Cluster;
 DELETE FROM App;
 DELETE FROM NamespaceLock;
-DELETE FROM ServerConfig;
+DELETE FROM "ServerConfig";
 
