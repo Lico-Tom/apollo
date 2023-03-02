@@ -24,4 +24,4 @@ DELETE FROM "Item";
 DELETE FROM "ReleaseMessage";
 DELETE FROM releasehistory;
 DELETE FROM namespacelock;
-DELETE FROM `commit`;
+DELETE FROM "Commit";
