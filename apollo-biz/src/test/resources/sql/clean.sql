@@ -13,14 +13,14 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 --
-DELETE FROM AccessKey;
-DELETE FROM App;
+DELETE FROM "AccessKey";
+DELETE FROM "App";
 DELETE FROM "AppNamespace";
 DELETE FROM Cluster;
 DELETE FROM "Namespace";
 DELETE FROM "GrayReleaseRule" ;
 DELETE FROM "Release";
-DELETE FROM item;
+DELETE FROM "Item";
 DELETE FROM "ReleaseMessage";
 DELETE FROM releasehistory;
 DELETE FROM namespacelock;
