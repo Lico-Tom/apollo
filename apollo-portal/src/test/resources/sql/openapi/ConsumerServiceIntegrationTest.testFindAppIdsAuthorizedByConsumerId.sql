@@ -86,53 +86,53 @@ INSERT INTO `ConsumerToken` (`Id`, `ConsumerId`, `Token`, `Expires`, `DataChange
 /*!40000 ALTER TABLE `Favorite` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `Permission` DISABLE KEYS */;
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1000, 'AssignRole', 'consumer-test-app-id-0', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (2000, 'CreateNamespace', 'consumer-test-app-id-0', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (3000, 'CreateCluster', 'consumer-test-app-id-0', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (4000, 'ManageAppMaster', 'consumer-test-app-id-0', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (5000, 'ModifyNamespace', 'consumer-test-app-id-0+application', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (6000, 'ReleaseNamespace', 'consumer-test-app-id-0+application', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (7000, 'ModifyNamespace', 'consumer-test-app-id-0+application+DEV', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (8000, 'ReleaseNamespace', 'consumer-test-app-id-0+application+DEV', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (9000, 'CreateNamespace', 'consumer-test-app-id-1', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (10000, 'AssignRole', 'consumer-test-app-id-1', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (11000, 'CreateCluster', 'consumer-test-app-id-1', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (12000, 'ManageAppMaster', 'consumer-test-app-id-1', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (13000, 'ModifyNamespace', 'consumer-test-app-id-1+application', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (14000, 'ReleaseNamespace', 'consumer-test-app-id-1+application', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (15000, 'ModifyNamespace', 'consumer-test-app-id-1+application+DEV', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (16000, 'ReleaseNamespace', 'consumer-test-app-id-1+application+DEV', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (17000, 'CreateCluster', 'consumer-test-app-id-2', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (18000, 'AssignRole', 'consumer-test-app-id-2', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (19000, 'CreateNamespace', 'consumer-test-app-id-2', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (20000, 'ManageAppMaster', 'consumer-test-app-id-2', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (21000, 'ModifyNamespace', 'consumer-test-app-id-2+application', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (22000, 'ReleaseNamespace', 'consumer-test-app-id-2+application', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (23000, 'ModifyNamespace', 'consumer-test-app-id-2+application+DEV', 'apollo', 'apollo');
-INSERT INTO `Permission` (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Permission" (`Id`, `PermissionType`, `TargetId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (24000, 'ReleaseNamespace', 'consumer-test-app-id-2+application+DEV', 'apollo', 'apollo');
 /*!40000 ALTER TABLE `Permission` ENABLE KEYS */;
 
