@@ -183,53 +183,53 @@ INSERT INTO `Role` (`Id`, `RoleName`, `DataChange_CreatedBy`, `DataChange_LastMo
 /*!40000 ALTER TABLE `Role` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `RolePermission` DISABLE KEYS */;
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1000, 1000, 1000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (2000, 1000, 2000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (3000, 1000, 3000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (4000, 2000, 4000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (5000, 3000, 5000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (6000, 4000, 6000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (7000, 5000, 7000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (8000, 6000, 8000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (9000, 7000, 9000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (10000, 7000, 10000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (11000, 7000, 11000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (12000, 8000, 12000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (13000, 9000, 13000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (14000, 10000, 14000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (15000, 11000, 15000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (16000, 12000, 16000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (17000, 13000, 17000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (18000, 13000, 18000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (19000, 13000, 19000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (20000, 14000, 20000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (21000, 15000, 21000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (22000, 16000, 22000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (23000, 17000, 23000, 'apollo', 'apollo');
-INSERT INTO `RolePermission` (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "RolePermission" (`Id`, `RoleId`, `PermissionId`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (24000, 18000, 24000, 'apollo', 'apollo');
 /*!40000 ALTER TABLE `RolePermission` ENABLE KEYS */;
 
