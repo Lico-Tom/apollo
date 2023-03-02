@@ -26,4 +26,4 @@ DELETE FROM `Role`;
 DELETE FROM `RolePermission`;
 DELETE FROM `ServerConfig`;
 DELETE FROM "UserRole";
-DELETE FROM `Users`;
+DELETE FROM "Users";
