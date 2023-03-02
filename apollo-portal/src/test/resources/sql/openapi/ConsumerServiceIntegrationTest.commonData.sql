@@ -85,7 +85,7 @@ INSERT INTO `ConsumerRole` (`Id`, `ConsumerId`, `RoleId`, `DataChange_CreatedBy`
 /*!40000 ALTER TABLE `ConsumerRole` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `ConsumerToken` DISABLE KEYS */;
-INSERT INTO `ConsumerToken` (`Id`, `ConsumerId`, `Token`, `Expires`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "ConsumerToken" (`Id`, `ConsumerId`, `Token`, `Expires`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1000, 1000, '3c16bf5b1f44b465179253442460e8c0ad845289', '2098-12-31 10:00:00', 'apollo', 'apollo');
 /*!40000 ALTER TABLE `ConsumerToken` ENABLE KEYS */;
 

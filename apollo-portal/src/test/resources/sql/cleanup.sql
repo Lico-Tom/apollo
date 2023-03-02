@@ -19,7 +19,7 @@ DELETE FROM "AppNamespace";
 DELETE FROM `Consumer`;
 DELETE FROM `ConsumerAudit`;
 DELETE FROM `ConsumerRole`;
-DELETE FROM `ConsumerToken`;
+DELETE FROM "ConsumerToken";
 DELETE FROM "Favorite";
 DELETE FROM "Permission";
 DELETE FROM "Role";
