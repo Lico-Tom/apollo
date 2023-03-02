@@ -16,7 +16,7 @@
 INSERT INTO "App" ( `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES('test', 'test0620-06', 'default', 'default', 'default', 'default', 0, 'default', 'default');
 
 /* normal namespace*/
-INSERT INTO `cluster` ( `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES ( 'only-master', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" ( `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES ( 'only-master', 'test', 0, 0, 'default', 'default');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(100, 'test', 'only-master', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Item" (`NamespaceId`, "Key", "Type", "Value", `Comment`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(100, 'k1', '0', 'v1', '', 'apollo', 'apollo');
 INSERT INTO "Item" (`NamespaceId`, "Key", "Type", "Value", `Comment`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(100, 'k2', '0', 'v2', '', 'apollo', 'apollo');
@@ -24,8 +24,8 @@ INSERT INTO "Item" (`NamespaceId`, "Key", "Type", "Value", `Comment`, `DataChang
 
 
 /* namespace has branch. master has items but branch has not item*/
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (101, 'default1', 'test', 0, 0, 'default', 'default');
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(102, 'child-cluster1', 'test', 101, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (101, 'default1', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(102, 'child-cluster1', 'test', 101, 0, 'default', 'default');
 
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(101, 'test', 'default1', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(102, 'test', 'child-cluster1', 'application', 0, 'apollo', 'apollo');
@@ -39,8 +39,8 @@ INSERT INTO "GrayReleaseRule" (`AppId`, `ClusterName`, `NamespaceName`, `BranchN
 
 
 /* namespace has branch. master has items and branch has item*/
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (103, 'default2', 'test', 0, 0, 'default', 'default');
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(104, 'child-cluster2', 'test', 103, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (103, 'default2', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(104, 'child-cluster2', 'test', 103, 0, 'default', 'default');
 
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(103, 'test', 'default2', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(104, 'test', 'child-cluster2', 'application', 0, 'apollo', 'apollo');
@@ -53,8 +53,8 @@ INSERT INTO "Item" (`NamespaceId`, "Key", "Type", "Value", `Comment`, `DataChang
 INSERT INTO "GrayReleaseRule" (`AppId`, `ClusterName`, `NamespaceName`, `BranchName`, `Rules`, `ReleaseId`, `BranchStatus`)VALUES ('test', 'default2', 'application', 'child-cluster2', '[]', 1155, 1);
 
 /* namespace has branch. master has items and branch has cover item */
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (105, 'default3', 'test', 0, 0, 'default', 'default');
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(106, 'child-cluster3', 'test', 105, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (105, 'default3', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(106, 'child-cluster3', 'test', 105, 0, 'default', 'default');
 
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(105, 'test', 'default3', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(106, 'test', 'child-cluster3', 'application', 0, 'apollo', 'apollo');
@@ -69,8 +69,8 @@ INSERT INTO "Release" (`Id`, `ReleaseKey`, `Name`, `Comment`, `AppId`, `ClusterN
 INSERT INTO "GrayReleaseRule" (`AppId`, `ClusterName`, `NamespaceName`, `BranchName`, `Rules`, `ReleaseId`, `BranchStatus`)VALUES ('test', 'default3', 'application', 'child-cluster3', '[]', 1155, 1);
 
 /*publish branch at first time */
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (107, 'default4', 'test', 0, 0, 'default', 'default');
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(108, 'child-cluster4', 'test', 107, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (107, 'default4', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(108, 'child-cluster4', 'test', 107, 0, 'default', 'default');
 
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(107, 'test', 'default4', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(108, 'test', 'child-cluster4', 'application', 0, 'apollo', 'apollo');
@@ -85,8 +85,8 @@ INSERT INTO "Release" (`Id`, `ReleaseKey`, `Name`, `Comment`, `AppId`, `ClusterN
 INSERT INTO "GrayReleaseRule" (`AppId`, `ClusterName`, `NamespaceName`, `BranchName`, `Rules`, `ReleaseId`, `BranchStatus`)VALUES ('test', 'default4', 'application', 'child-cluster4', '[]', 1155, 1);
 
 /*publish branch*/
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (109, 'default5', 'test', 0, 0, 'default', 'default');
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1010, 'child-cluster5', 'test', 109, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (109, 'default5', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1010, 'child-cluster5', 'test', 109, 0, 'default', 'default');
 
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(109, 'test', 'default5', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1010, 'test', 'child-cluster5', 'application', 0, 'apollo', 'apollo');
@@ -103,8 +103,8 @@ INSERT INTO "Release" (`Id`, `ReleaseKey`, `Name`, `Comment`, `AppId`, `ClusterN
 INSERT INTO "GrayReleaseRule" (`AppId`, `ClusterName`, `NamespaceName`, `BranchName`, `Rules`, `ReleaseId`, `BranchStatus`)VALUES ('test', 'default5', 'application', 'child-cluster5', '[]', 1155, 1);
 
 /* rollback */
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (1011, 'default6', 'test', 0, 0, 'default', 'default');
-INSERT INTO `cluster` (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1012, 'child-cluster6', 'test', 1011, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES (1011, 'default6', 'test', 0, 0, 'default', 'default');
+INSERT INTO "Cluster" (ID, `Name`, `AppId`, `ParentClusterId`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1012, 'child-cluster6', 'test', 1011, 0, 'default', 'default');
 
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1011, 'test', 'default6', 'application', 0, 'apollo', 'apollo');
 INSERT INTO "Namespace" (ID, `AppId`, `ClusterName`, `NamespaceName`, `IsDeleted`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`)VALUES(1012, 'test', 'child-cluster6', 'application', 0, 'apollo', 'apollo');
