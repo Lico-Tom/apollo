@@ -28,7 +28,7 @@ INSERT INTO "Commit" (`ChangeSets`, `AppId`, `ClusterName`, `NamespaceName`, `Da
 
 INSERT INTO "Item" (`NamespaceId`, "Key", "Value", `Comment`, `LineNum`)VALUES(1, 'k1', 'v1', '', 1);
 
-INSERT INTO `namespacelock` (`NamespaceId`)VALUES(1);
+INSERT INTO "NamespaceLock" (`NamespaceId`)VALUES(1);
 
 INSERT INTO "Release" (`AppId`, `ClusterName`, `NamespaceName`, `Configurations`, `IsAbandoned`)VALUES('branch-test', 'default', 'application', '{}', 0);
 INSERT INTO "Release" (`AppId`, `ClusterName`, `NamespaceName`, `Configurations`, `IsAbandoned`)VALUES('branch-test', 'child-cluster', 'application', '{}', 0);

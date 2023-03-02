@@ -23,5 +23,5 @@ DELETE FROM "Release";
 DELETE FROM "Item";
 DELETE FROM "ReleaseMessage";
 DELETE FROM releasehistory;
-DELETE FROM namespacelock;
+DELETE FROM "NamespaceLock";
 DELETE FROM "Commit";

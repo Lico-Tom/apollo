@@ -25,7 +25,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "NamespaceLock")
+@Table(name = "`NamespaceLock`")
 @Where(clause = "isDeleted = false")
 public class NamespaceLock extends BaseEntity{
 
