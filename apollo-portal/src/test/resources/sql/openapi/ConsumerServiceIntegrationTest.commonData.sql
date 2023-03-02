@@ -61,13 +61,13 @@ INSERT INTO "AppNamespace" (`Id`, `Name`, `AppId`, `Format`, `Comment`, `DataCha
 /*!40000 ALTER TABLE `AppNamespace` ENABLE KEYS */;
 
 /*!40000 ALTER TABLE `Consumer` DISABLE KEYS */;
-INSERT INTO `Consumer` (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Consumer" (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1000, 'consumer-test-app-role', 'consumer-test-app-role', 'TEST2', '样例部门2', 'apollo', 'apollo@acme.com', 'apollo', 'apollo');
-INSERT INTO `Consumer` (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Consumer" (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1001, 'consumer-test-app-role1', 'consumer-test-app-role1', 'TEST2', '样例部门2', 'apollo', 'apollo@acme.com', 'apollo', 'apollo');
-INSERT INTO `Consumer` (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Consumer" (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1002, 'consumer-test-app-role2', 'consumer-test-app-role2', 'TEST2', '样例部门2', 'apollo', 'apollo@acme.com', 'apollo', 'apollo');
-INSERT INTO `Consumer` (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
+INSERT INTO "Consumer" (`Id`, `AppId`, `Name`, `OrgId`, `OrgName`, `OwnerName`, `OwnerEmail`, `DataChange_CreatedBy`, `DataChange_LastModifiedBy`) VALUES
 (1003, 'consumer-test-app-role3', 'consumer-test-app-role3', 'TEST2', '样例部门2', 'apollo', 'apollo@acme.com', 'apollo', 'apollo');
 
 /*!40000 ALTER TABLE `Consumer` ENABLE KEYS */;

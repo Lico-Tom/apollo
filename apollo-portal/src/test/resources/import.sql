@@ -13,8 +13,8 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 --
-ALTER TABLE Consumer ALTER COLUMN DataChange_CreatedBy VARCHAR(255) NULL;
-ALTER TABLE Consumer ALTER COLUMN DataChange_CreatedTime TIMESTAMP NULL;
+ALTER TABLE "Consumer" ALTER COLUMN DataChange_CreatedBy VARCHAR(255) NULL;
+ALTER TABLE "Consumer" ALTER COLUMN DataChange_CreatedTime TIMESTAMP NULL;
 ALTER TABLE "ConsumerToken" ALTER COLUMN DataChange_CreatedBy VARCHAR(255) NULL;
 ALTER TABLE "ConsumerToken" ALTER COLUMN DataChange_CreatedTime TIMESTAMP NULL;
 ALTER TABLE ConsumerRole ALTER COLUMN DataChange_CreatedBy VARCHAR(255) NULL;

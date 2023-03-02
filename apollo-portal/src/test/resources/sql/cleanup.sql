@@ -16,7 +16,7 @@
 DELETE FROM `App`;
 DELETE FROM "AppNamespace";
 -- DELETE FROM `Authorities`;
-DELETE FROM `Consumer`;
+DELETE FROM "Consumer";
 DELETE FROM "ConsumerAudit";
 DELETE FROM `ConsumerRole`;
 DELETE FROM "ConsumerToken";
